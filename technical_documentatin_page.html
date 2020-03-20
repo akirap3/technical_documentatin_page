@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<nav id="navbar">
+  <header>Learning Markdown syntaxes</header>
+  <ul>
+    <li ><a class="nav-link" href="#reasons">Reasons</a></li>
+    <li ><a class="nav-link" href="#font_styles_and_size">Font styles and size</a></li>
+    <li ><a class="nav-link" href="#lists_styles">Lists styles</a></li>
+    <li ><a class="nav-link" href="#link_URLs_and_images">Link URLs and Images</a></li>
+    <li ><a class="nav-link" href="#line_styles">Line styles</a></li>
+    <li ><a class="nav-link" href="#about_codes">About codes</a></li>
+    <li ><a class="nav-link" href="#abbreviation">Abbreviation </a></li>
+    <li ><a class="nav-link" href="#blockquotes">Blockquotes</a></li>
+    <li ><a class="nav-link" href="#table">Table</a></li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section id="reasons" class="main-section">
+    <header>Reasons</header>
+    <article>
+      <ul>
+        <li>I can edit whole contents in words and codes. No images are copied in a markdown file, they are indirectly linked to URLs of the source images. It’s a clear pattern.
+        </li>
+        <li>If you are often using Github, you may notice that the editing method of readme.md is Markdown syntax.
+        </li>
+        <li>As an engineer, I would like to indulge in the coding environment as possible, even when I compose an article. Markdown is a way to achieve that.
+        </li>
+        <li>I think it’s not to difficult to get this skill if you have some background in coding. Grasp some keynote syntaxes and the most used ones. Hence, you may find it’s not scaring for you.
+        </li>
+      </ul>
+      <p>First of all, the idea of writing a blog comes up to me, I consider which platform should I chose, how I write articles efficiently and can be put on several blog website. In the end, I pick blogger and Medium, the blogger is the place where I compose an article initially, and I will put the same contents in Medium via importing markdown file edited on online Markdown editor.
+      </p>
+      <p>Let’s get started.
+      </p>
+      <p>To be honest, I didn’t try every online editor on the Internet. I just select the one I think it is neat for me. I use the opensource project on Github. The author is pandao, and the project name is editor.me.
+      </p>
+      <p>You can visit this project on this web page editor.md
+      </p>
+      <p>Nicely, there are most used Markdown syntaxes display on the left side. Furthermore, the top navigation has widgets to help you edit markdown file quickly if you are not familiar with the syntax.
+      </p>
+    </article>
+  </section>
+  <section id="font_styles_and_size" class="main-section">
+    <header>Font styles and size</header>
+    <article>
+      <p>The sizes of fonts</p>
+      <ul>
+        <li>Syntax : #</li>
+        <li>use # to adjust the size of fonts, the more the number of # get, the smaller the size is.</li>
+      </ul>
+      <p>Strikethrough</p>
+         <code><s>text</s> or ~~text~~ text</code>      
+      <p>Italic</p>
+        <code>*text* or _text_ text</code>
+      <p>Emphasis</p>
+        <code>**Text** or __Text__ Text</code>
+      <p>Superscript</p>
+        <code><sup>text</sup></code>
+      <p>Subscript</p>
+        <code><sub>text</sub> text</code>
+    </article>
+  </section>
+  <section id="lists_styles" class="main-section">
+    <header>Lists styles</header>
+    <article>
+      <p>Table of Contents</h3>
+        <ul>
+          <li>It will organize a table menu that you harness “#” in your article hierarchically.</li>
+        </ul>
+      <code>[TOCM] this mean table of contents menu
+            [TOC] table of contents</code>
+    </section>
+    <section id="link_URLs_and_images" class="main-section">
+      <header>Link URLs and Images</header>
+      <p>Link URLs</p>
+      <ul>
+        <li>It’s very similar to the syntax of link images. The difference is the question mark.</li>
+        <li>Syntax : [the word you'd like to show](url)</li>
+        <li>eg.<code>[Heading link](https://github.com/pandao/editor.md "Heading link") Heading link</code></li>
+      </ul>
+      <p>Link images</p>
+        <ul>
+          <li>Syntax : <code>![](url)</code></li>
+          <li>eg. <code>![](https://cdn.icon-icons.com/icons2/2230/PNG/128/grandma_black_transparent_icon_134572.png)</code></li>  
+        </ul>
+    </article>
+  </section>
+  <section id="line_styles" class="main-section">
+    <header>Line styles</header>
+    <article>
+      <p>Underline</p>
+      <ul>
+        <li>Syntax : <code>=============</code> or <code>-------------</code></li>
+      </ul>
+      <p>Horizontal line</p>
+      <ul>
+        <li>Syntax: <code>---</code></li>
+      </ul>
+    </article>
+  </section>
+  <section id="about_codes" class="main-section">
+    <header>About codes</header>
+    <article>
+      <p>inline code</p>
+      <code>`</code>
+      <p>Code Blocks (Preformatted text)</p>
+      <code>```code```</code>
+    </article>
+  </section>
+  <section id="abbreviation" class="main-section">
+    <header>Abbreviation</header>
+    <article>
+      <code><abbr title="title">text</abbr></code>
+    </article>
+  </section>
+  <section id="blockquotes" class="main-section">
+    <header>Blockquotes</header>
+    <article>
+      <ul>
+        <li>Syntax: > text</li>
+        <li>Note: must have one line above and below for each</li>
+      </ul>
+    </article>
+  </section>
+  <section id="table" class="main-section">
+    <header>Table</header>
+    <article>
+      <ul>
+        <li>Table 1</li>
+        <code> 
+  First column  | Second column
+  ------------- | -------------
+  Content Cell  | Content Cell
+  Content Cell  | Content Cell</code>
+        <li>Table 2</li>
+        <code>
+  | First column| Second column|
+  | ------------- | ------------- |
+  | Content Cell  | Content Cell  |
+  | Content Cell  | Content Cell  |</code>
+        <li>Table 3</li>
+        <code>
+  | Item      | Value |
+  | --------- | -----:|
+  | Computer  | $1600 |
+  | Phone     |   $12 |
+  | Pipe      |    $1 |</code>
+        <li>Table 4</li>
+        <code>
+  | Left-Aligned  | Center Aligned  | Right Aligned |
+  | :------------ |:---------------:| -----:|
+  | col 3 is      | some wordy text | $1600 |
+  | col 2 is      | centered        |   $12 |
+  | zebra stripes | are neat        |    $1 |</code>
+
+      </ul>
+    </article>
+  </section>
+</main>
+
+</html>
